@@ -1,0 +1,44 @@
+.mainContainer {
+    background-color: blueviolet !important;
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.quiz-card {
+    width: 30rem;
+}
+.question-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.quiz-answer-card:hover {
+    scale: 1.05;
+    background-color: rgb(245, 235, 255);
+    cursor: pointer;
+}
+
+.bg-success, .bg-danger {
+    color: white !important; /* Textfarbe für Erfolg */
+}
+
+.bg-danger {
+    color: white !important; /* Textfarbe für Misserfolg */
+}
+
+.text-center {
+    text-align: center;
+}
+
+.quizBeendet {
+    margin: 32px;
+}
+.progress {
+    margin: 24px;
+}
